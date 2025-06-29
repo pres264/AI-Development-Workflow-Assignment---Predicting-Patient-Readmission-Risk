@@ -13,70 +13,59 @@ Berlyn Mumbua
 This repository contains our solution for the AI Development Workflow assignment, where we develop a system to predict 30-day patient readmission risk for a hospital. The project follows the complete AI development lifecycle from problem definition to deployment considerations.
 
 ##  Workflow Structure
-AI-Development-Workflow-Assignment/
-│
-├── README.md 
-│
-├── Part1_Short_Answer_Questions/ # 30 points
-│ ├── 1_Problem_Definition/ # 6 points
-│ │ ├── objectives_stakeholders.md
-│ │ └── kpi_definition.md
-│ │
-│ ├── 2_Data_Collection/ # 8 points
-│ │ ├── data_sources.md
-│ │ ├── data_bias_analysis.md
-│ │ └── preprocessing_steps.md
-│ │
-│ ├── 3_Model_Development/ # 8 points
-│ │ ├── model_selection.md
-│ │ ├── data_splitting.md
-│ │ └── hyperparameters.md
-│ │
-│ └── 4_Evaluation_Deployment/ # 8 points
-│ ├── evaluation_metrics.md
-│ ├── concept_drift.md
-│ └── deployment_challenges.md
-│
-├── Part2_Case_Study/ # 40 points
-│ ├── 1_Problem_Scope/ # 5 points
-│ │ ├── problem_statement.md
-│ │ └── objectives_stakeholders.md
-│ │
-│ ├── 2_Data_Strategy/ # 10 points
-│ │ ├── data_sources.md
-│ │ ├── ethical_concerns.md
-│ │ └── preprocessing_pipeline.ipynb
-│ │
-│ ├── 3_Model_Development/ # 10 points
-│ │ ├── model_selection.md
-│ │ ├── confusion_matrix.ipynb
-│ │ └── performance_metrics.md
-│ │
-│ ├── 4_Deployment/ # 10 points
-│ │ ├── integration_plan.md
-│ │ └── hipaa_compliance.md
-│ │
-│ └── 5_Optimization/ # 5 points
-│ └── overfitting_solution.md
-│
-├── Part3_Critical_Thinking/ # 20 points
-│ ├── 1_Ethics_Bias/ # 10 points
-│ │ ├── bias_impact.md
-│ │ └── mitigation_strategy.md
-│ │
-│ └── 2_Tradeoffs/ # 10 points
-│ ├── interpretability_vs_accuracy.md
-│ └── resource_constraints.md
-│
-├── Part4_Reflection/ # 10 points
-│ ├── workflow_reflection.md # 5 points
-│ └── workflow_diagram/ # 5 points
-│ ├── diagram.png
-│ └── diagram_source.pptx
-│
-├── documentation/
-│ └── Assignment_Report.pdf # Compiled PDF report
-│
-└── assets/ # Supporting files
-├── sample_data/ # Hypothetical data examples
-└── references/ # Research materials
+
+This project is organized into 4 main parts corresponding to the assignment requirements:
+
+### Part 1: Short Answer Questions (30 points)
+- **Problem Definition (6 pts)**
+  - Objectives and stakeholders documentation
+  - Key Performance Indicator definition
+- **Data Collection (8 pts)**
+  - Data sources inventory
+  - Bias analysis report
+  - Preprocessing steps documentation
+- **Model Development (8 pts)**
+  - Model selection justification
+  - Data splitting strategy
+  - Hyperparameter tuning plan
+- **Evaluation & Deployment (8 pts)**
+  - Evaluation metrics analysis
+  - Concept drift monitoring approach
+  - Deployment challenges assessment
+
+### Part 2: Case Study Application (40 points)
+- **Problem Scope (5 pts)**
+  - Hospital readmission problem statement
+  - Case study objectives and stakeholders
+- **Data Strategy (10 pts)**
+  - EHR data sources documentation
+  - Ethical concerns analysis
+  - Preprocessing pipeline notebook
+- **Model Development (10 pts)**
+  - Readmission prediction model selection
+  - Confusion matrix implementation
+  - Performance metrics calculation
+- **Deployment (10 pts)**
+  - Hospital system integration plan
+  - HIPAA compliance documentation
+- **Optimization (5 pts)**
+  - Overfitting prevention strategy
+
+### Part 3: Critical Thinking (20 points)
+- **Ethics & Bias (10 pts)**
+  - Training data bias impact analysis
+  - Bias mitigation strategy
+- **Trade-offs (10 pts)**
+  - Interpretability vs. accuracy discussion
+  - Resource constraints analysis
+
+### Part 4: Reflection (10 points)
+- Workflow challenges reflection
+- AI development workflow diagram
+  - PNG visualization
+  - Source presentation file
+
+### Supporting Materials
+- Compiled PDF report (5-10 pages)
+- Sample data examples
+- Research references
