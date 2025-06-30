@@ -2,11 +2,11 @@
 
 **Course:** AI for Software Engineering   
 **Team Members:** 
-Presley Oluoch
-Daisy Achieng
-Elias Derick
-Moses Kerama
-Berlyn Mumbua
+Presley Oluoch,
+Daisy Achieng,
+Elias Derick,
+Moses Kerama,
+Berlyn Mumbua.
 
 
 ## 📌 Overview
