@@ -1,1 +1,43 @@
+Part 1: Short Answer Questions
+
+1. Problem Definition
+- **Hypothetical AI Problem:** Predicting student dropout rates in a university.
+- **Objectives:**
+  1. Identify students at risk of dropping out early in the semester.
+  2. Provide actionable insights to academic advisors for timely intervention.
+  3. Improve overall student retention rates.
+- **Stakeholders:**
+  1. University administrators
+  2. Students
+- **Key Performance Indicator (KPI):**
+  - F1 score on the test set for dropout prediction.
+
+2. Data Collection & Preprocessing
+- **Data Sources:**
+  1. Student academic records (grades, attendance, course completion)
+  2. Demographic information (age, socioeconomic status, background)
+- **Potential Bias:**
+  - Underrepresentation of certain demographic groups (e.g., international students) may lead to biased predictions and unfair interventions.
+- **Preprocessing Steps:**
+  1. Handle missing data using imputation techniques.
+  2. Normalize numerical features to ensure comparability.
+  3. Encode categorical variables (e.g., gender, program) using one-hot encoding.
+
+3. Model Development
+- **Model Choice & Justification:**
+  - Random Forest: Handles mixed data types, robust to outliers, and provides feature importance for interpretability.
+- **Data Splitting:**
+  - Split data into 60% training, 20% validation, and 20% test sets to ensure robust evaluation.
+- **Hyperparameters to Tune:**
+  1. Number of trees (n_estimators): Affects model complexity and performance.
+  2. Maximum tree depth (max_depth): Controls overfitting and generalization.
+
+4. Evaluation & Deployment
+- **Evaluation Metrics:**
+  1. Recall: Important to identify as many at-risk students as possible for intervention.
+  2. Precision: Ensures interventions are targeted and not wasted on low-risk students.
+- **Concept Drift:**
+  - Concept drift occurs when the statistical properties of the target variable change over time. It can be monitored by tracking model performance on new data and retraining the model as needed.
+- **Technical Challenge During Deployment:**
+  - Scalability: Ensuring the model can handle predictions for thousands of students in real-time without latency issues.
 

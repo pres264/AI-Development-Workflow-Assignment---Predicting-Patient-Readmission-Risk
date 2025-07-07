@@ -1,0 +1,11 @@
+patient_id,age,gender,admission_type,discharge_disposition,diagnosis,readmission
+1,65,M,Emergency,Home,Heart Failure,1
+2,70,F,Elective,Home,Diabetes,0
+3,55,M,Emergency,Home,Chronic Obstructive Pulmonary Disease,1
+4,80,F,Emergency,Nursing Home,Heart Failure,1
+5,45,M,Elective,Home,Diabetes,0
+6,60,F,Emergency,Home,Heart Attack,1
+7,75,M,Elective,Home,Stroke,0
+8,50,F,Emergency,Home,Heart Failure,1
+9,65,M,Emergency,Home,Diabetes,0
+10,72,F,Elective,Nursing Home,Chronic Kidney Disease,1
